@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panolens</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+    
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2iaPuUFIyMo" title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    
+    </div>
+    
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <div id="container"></div>
+
+    <script src="js/three.min.js"></script>
+    <script src="js/panolens.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
