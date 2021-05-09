@@ -23,6 +23,19 @@ body {
 }
 
 
+/* For now the logo is an image */
+
+.logo {
+    position: absolute;
+    height: 10%;
+    padding: 1em;
+    top: 0;
+    left: 0;
+    /* right: 0; */
+    z-index: 1000;
+}
+
+
 /* The Overlay (background) */
 
 .overlay {
