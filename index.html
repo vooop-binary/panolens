@@ -25,9 +25,25 @@
         </div>
     </div>
 
+    <!-- The overlay -->
+    <div id="myMenu" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+
     <div class="container">
         <!-- For now the logo is an image -->
-        <img class="logo" onclick="alert('TODO')" src="./asset/img/basic.png" />
+        <img class="logo" onclick="openMenu()" src="./asset/img/logo.png" />
 
         <!-- Root container for Panolens -->
         <div class="panolens-container"></div>

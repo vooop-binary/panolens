@@ -12,6 +12,20 @@ function closeOverlay() {
 }
 
 /**
+ * Open Menu
+ */
+function openMenu() {
+    document.getElementById("myMenu").style.width = "100%";
+}
+/**
+ * Closes Menu
+ */
+function closeMenu() {
+    document.getElementById("myMenu").style.width = "0%";
+}
+
+
+/**
  * Converts ``string`` to a HTML DOM Element
  * 
  * @param  {string} s
